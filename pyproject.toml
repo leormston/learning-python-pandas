@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "learning-python-pandas"
+version = "0.1.0"
+description = ""
+authors = ["leormston <l.e.ormston@gmail.com>"]
+readme = "README.md"
+packages = [{include = "main.py"}]
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.13"
+pandas = "^2.1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
